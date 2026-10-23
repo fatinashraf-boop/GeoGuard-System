@@ -1,0 +1,14 @@
+# Android build & IDE artifacts
+.gradle/
+build/
+app/build/
+.idea/
+*.iml
+*.apk
+
+# Node.js dependencies & environment overrides
+node_modules/
+npm-debug.log
+
+# Uploaded test evidence
+uploads/

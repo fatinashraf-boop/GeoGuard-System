@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ProgressBar
+            android:id="@+id/progressDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvReportDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading report..."
+            android:textColor="#172B4D"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Evidence ImageView -->
+        <ImageView
+            android:id="@+id/imgReportEvidence"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="8dp"
+            android:background="#E1E6EF"
+            android:scaleType="centerCrop"
+            android:contentDescription="Evidence Photo" />
+    </LinearLayout>
+</ScrollView>

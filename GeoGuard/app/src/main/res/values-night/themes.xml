@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GeoGuard" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Application Primary & Text Colors -->
+        <item name="colorPrimary">#1746A2</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#F4F7FC</item>
+        <item name="android:textColorPrimary">#172B4D</item>
+        <item name="android:textColorSecondary">#52627A</item>
+    </style>
+</resources>
